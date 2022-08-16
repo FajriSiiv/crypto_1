@@ -21,7 +21,7 @@ const Coins = ({
     <Link href="/coin/[id]" as={`/coin/${id}`}>
       <div
         key={id}
-        className="flex items-center w-[100%] my-2 py-2 px-2 border-solid border-2 rounded-[3px] cursor-pointer  text-sm sm:text-base"
+        className="flex items-center w-[100%] my-2 py-2 px-2 border-solid border-2 rounded-[3px] cursor-pointer  text-sm sm:text-base lg:text-xl"
       >
         <div className="w-[10%] sm:w-[5%] mr-2">
           <img
