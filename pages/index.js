@@ -1,5 +1,5 @@
 import Head from "next/head";
-import CoinList from "./Components/Search/CoinList";
+import CoinList from "../Components/Search/CoinList";
 
 export default function Home({ dataCoin }) {
   return (
