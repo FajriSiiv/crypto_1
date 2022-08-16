@@ -1,8 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
-import Coins from "../Components/Coins";
-import CoinList from "../Components/Search/CoinList";
+import CoinList from "./Components/Search/CoinList";
 
 export default function Home({ dataCoin }) {
   return (
