@@ -3,7 +3,7 @@ import Coins from "../Coins";
 
 const CoinList = ({ dataCoin }) => {
   return (
-    <div className="d-flex flex-col justify-center items-center text-sm ">
+    <div className="d-flex flex-col justify-center items-center text-sm sm:text-base lg:text-xl">
       <h1 className="lg:text-5xl text-2xl text-center pt-14 pb-8 uppercase font-semibold">
         Cryptocurrency
       </h1>
